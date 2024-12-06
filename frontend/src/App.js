@@ -22,7 +22,7 @@ function App() {
 
     try {
       console.log('Sending request with message:', message);
-      const response = await fetch('http://localhost:5001/api/detect-cyberbullying', {
+      const response = await fetch('http://50.18.159.16:5001/api/detect-cyberbullying', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
